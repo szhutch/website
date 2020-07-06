@@ -1,0 +1,200 @@
+
+#topSection {
+    /* border: solid red 3px;  */
+    /* background-image: url(images/kaleidoscope.gif); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: #58b8df69; */
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#58b9df69;
+    width: 100%;
+}
+h1 {
+    color: rgb(245, 175, 26);
+    font-size: 80px;
+    font-family: 'Monoton', cursive; 
+    text-align: center;  
+    background-color:midnightblue ;
+}
+
+h1 a {
+    text-decoration: none;
+}
+h1 a:link {
+    color: indianred;
+}
+h1 a:visited {
+    color: indianred;
+}
+h1:hover {
+    background-color: rgba(255, 68, 0, 0.9)
+}
+h1 a:hover {
+    color: rgb(245, 175, 26);
+}
+h2 {
+    color: rgb(245, 175, 26);
+    font-size: 50px;
+    font-family: 'Monoton', cursive; 
+    text-align: center;  
+    background-color: orangered;
+}
+h3 {
+    color: indianred;
+    font-size: 5vw;
+    font-family: 'Monoton', cursive; 
+    text-align: center;
+}
+
+h4 {
+    color: indianred;
+    font-size: 4vw;
+    font-family: 'Monoton', cursive; 
+    text-align: center;
+}
+p {
+    color: midnightblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(205, 92, 92, 0.9);
+    border: solid rgba(25, 25, 112, 0.9) 5px;  
+}
+.container:hover {
+    background-color:rgb(245, 175, 26);
+}
+
+
+.box {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Monoton', cursive; 
+    text-align: center;
+    padding: 15px;
+}
+ 
+.box a{
+    text-decoration: none;
+}
+.box a:link {
+    color: midnightblue;
+}
+.box a:visited {
+    color: midnightblue;
+}
+.box a:hover {
+    color: orangered;
+}
+
+.box a:active {
+    text-decoration: none;
+    color: white;
+}
+ 
+
+.backgroundHeaderImgArchitecture {
+    background-image: url(images/Screenshot\ 2020-07-03\ at\ 17.10.32.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#58b8df69;
+}
+
+
+
+#middleSection {
+    border: solid midnightblue 5px;
+    max-width: 50%;
+    margin: auto ;
+    padding: 50px;
+    align-items: center center;
+    justify-content: center;
+    /* background-color: turquoise; */
+    /* -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; */
+}
+#middleSection:hover {
+    background-color: #58b8df99;;
+}
+#bottomSection {
+    /* border: solid salmon 5px; */
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;  */
+    max-width: 100%;
+     margin: auto;
+    padding: 50px;  
+    justify-content: space-between; 
+}
+
+.boxes {
+    /* border: solid blue 5px; */
+    height: 33.3333%;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #58b8df99;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+}
+.boxes:hover{
+    background-color: #c8dbe2e8; 
+}
+ .midLeft{
+    width: 100%;
+    max-height: 100%;    
+    /* border: solid 4px rebeccapurple; */
+}
+
+.midRight{
+    /* border: solid 4px lime; */
+    margin: auto;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    max-width: 60%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    max-height: 100%;
+    text-align: center center;
+    display: table-cell;
+    vertical-align: middle;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#bottomNavBar {
+    /* border: solid greenyellow 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
